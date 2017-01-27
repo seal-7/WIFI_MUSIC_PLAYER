@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jogman1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hear_alone">HearAlone</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_theams">Theams</string>
+    <string name="title_activity_artist_songs">ArtistSongs</string>
+    <string name="title_activity_album_songs">AlbumSongs</string>
+    <string name="title_activity_group_play">GroupPlay</string>
+    <string name="title_activity_group_player">GroupPlayer</string>
+    <string name="title_activity_group_player1">GroupPlayer1</string>
+</resources>

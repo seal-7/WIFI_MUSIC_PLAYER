@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rajtalekar.jogman10.GroupPlay"
+    tools:showIn="@layout/activity_group_play">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover Device"
+        android:id="@+id/button"
+        android:onClick="discover"
+        android:layout_below="@+id/b2"
+        android:layout_marginTop="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:id="@+id/listView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        android:background="#060606"/>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="#777777"
+    android:id="@+id/listView1"
+    android:layout_below="@+id/listView"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView1"
+        android:textSize="40dp"
+        android:id="@+id/statusText"
+        android:textColor="#000000"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync"
+        android:id="@+id/b2"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+</RelativeLayout>
